@@ -11,7 +11,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build
-        run: yarn run build --base /procon-lt-1
+        run: yarn run build --base /lt-1
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
